@@ -55,6 +55,13 @@ This should make the SDK both useable for cases outside the initial scope, but a
 
 I chose not to dereference the list classes into the base models since I view this generally as bad practice due to potential memory issues. I understand that there is a finite limit to the number of Pokemon, and that memory footprint is probably neglible, but I chose to expose more controls to the user with the tradeoff of better useability. 
 
+## Future Work
+
+- Add more models for the API
+- Add more tests
+- Add enums for the possible pokemon, ids, and generations that the API supports to ensure type safety
+
+
 ## Tools used
 
 - Cursor IDE to generate the initial project structure and tertiary files like the README and tests
